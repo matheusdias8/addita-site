@@ -40,9 +40,9 @@ export default function ServiceHero() {
           Perito do Juízo · Assistente Técnico · TJGO · TJDF
         </span>
         <h1 ref={h1Ref} className={styles.h1}>
-          Em processos que envolvem obras, imóveis e contratos,
+          Perícia Judicial em Engenharia Civil
           <span className={styles.sub1}>
-            a decisão técnica precisa ser tão sólida quanto a jurídica.
+            Em processos que envolvem obras, imóveis e contratos, a decisão técnica precisa ser tão sólida quanto a jurídica.
           </span>
         </h1>
         <p ref={subRef} className={styles.sub}>

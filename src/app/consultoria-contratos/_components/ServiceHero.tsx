@@ -40,9 +40,9 @@ export default function ServiceHero() {
           Consultoria em Contratos de Engenharia
         </span>
         <h1 ref={h1Ref} className={styles.h1}>
-          Contratos de engenharia são complexos por natureza.
+          Consultoria em Contratos de Engenharia
           <span className={styles.sub1}>
-            O problema é quando essa complexidade trabalha contra você.
+            Contratos são complexos por natureza. O problema é quando essa complexidade trabalha contra você.
           </span>
         </h1>
         <p ref={subRef} className={styles.sub}>

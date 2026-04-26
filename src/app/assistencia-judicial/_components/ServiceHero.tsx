@@ -40,9 +40,9 @@ export default function ServiceHero() {
           Direito das partes · Art. 465 do CPC
         </span>
         <h1 ref={h1Ref} className={styles.h1}>
-          O perito do juízo trabalha para o processo.
+          Assistência Técnica Judicial em Engenharia
           <span className={styles.sub1}>
-            Você precisa de alguém que trabalhe exclusivamente para você.
+            O perito do juízo trabalha para o processo. Você precisa de alguém que trabalhe exclusivamente para você.
           </span>
         </h1>
         <p ref={subRef} className={styles.sub}>

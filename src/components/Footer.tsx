@@ -43,7 +43,7 @@ export default function Footer() {
                 (62) 92000-2426
               </a>
               <a href="mailto:contato@addita.com.br">contato@addita.com.br</a>
-              <span>Goiânia, GO</span>
+              <span>Goiânia · Região Metropolitana · Anápolis</span>
               <span>Seg–Sex 8h–18h</span>
             </div>
             <div style={{ marginTop: 20 }}>
@@ -70,7 +70,7 @@ export default function Footer() {
         </div>
         <div className={styles.bottom}>
           <p>© 2026 Áddita Engenharia e Consultoria. Todos os direitos reservados.</p>
-          <p>Goiânia, GO — Atendimento presencial em GO e DF</p>
+          <p>Goiânia, GO — Atendimento presencial em Goiânia, Região Metropolitana, Anápolis e Distrito Federal</p>
         </div>
       </div>
     </footer>

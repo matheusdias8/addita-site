@@ -40,9 +40,9 @@ export default function ServiceHero() {
           Documentação técnica · Proteção jurídica · Construtoras e vizinhos
         </span>
         <h1 ref={h1Ref} className={styles.h1}>
-          Antes de a obra começar, o problema
+          Vistorias Cautelares de Vizinhança
           <span className={styles.sub1}>
-            pode já estar sendo formado.
+            Antes de a obra começar, o problema pode já estar sendo formado.
           </span>
         </h1>
         <p ref={subRef} className={styles.sub}>

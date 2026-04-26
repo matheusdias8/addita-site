@@ -9,17 +9,24 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://addita.com.br"),
   title: "Perito Judicial de Engenharia em Goiânia | Áddita Engenharia",
   description:
     "Perícia judicial de engenharia em Goiânia. Perito IBAPE-GO nº 275, credenciado TJ-GO e TJDFT. Assistência técnica e análise de contratos. Fale com a Áddita.",
   openGraph: {
     type: "website",
+    siteName: "Áddita Engenharia",
     url: "https://addita.com.br/",
     title: "Perito Judicial de Engenharia em Goiânia | Áddita Engenharia",
     description:
       "Perícia judicial de engenharia em Goiânia. Perito IBAPE-GO nº 275, credenciado TJ-GO e TJDFT. Assistência técnica e análise de contratos.",
-    images: [{ url: "https://addita.com.br/og-image.jpg" }],
     locale: "pt_BR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Perito Judicial de Engenharia em Goiânia | Áddita Engenharia",
+    description:
+      "Perícia judicial de engenharia em Goiânia. Perito IBAPE-GO nº 275, credenciado TJ-GO e TJDFT. Assistência técnica e análise de contratos.",
   },
   alternates: { canonical: "https://addita.com.br/" },
   icons: { icon: "/favicon.png" },

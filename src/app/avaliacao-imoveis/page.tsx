@@ -11,9 +11,25 @@ import ServiceObjections from "./_components/ServiceObjections";
 import ServiceCTA from "./_components/ServiceCTA";
 
 export const metadata: Metadata = {
-  title: "Avaliações Imobiliárias | Áddita Engenharia",
+  title: "Avaliações Imobiliárias em Goiânia e Anápolis | Áddita Engenharia",
   description:
-    "Laudos de valor de mercado em conformidade com a NBR 14.653. Para inventários, divórcios, disputas judiciais e transações comerciais.",
+    "Avaliação imobiliária em Goiânia, RM de Goiânia e Anápolis conforme NBR 14.653. Laudos para inventários, divórcios, disputas judiciais e transações. Perito IBAPE-GO nº 275.",
+  alternates: { canonical: "https://addita.com.br/avaliacao-imoveis" },
+  openGraph: {
+    type: "website",
+    siteName: "Áddita Engenharia",
+    url: "https://addita.com.br/avaliacao-imoveis",
+    title: "Avaliações Imobiliárias em Goiânia e Anápolis | Áddita Engenharia",
+    description:
+      "Avaliação imobiliária em Goiânia, RM de Goiânia e Anápolis conforme NBR 14.653. Laudos para inventários, divórcios, disputas judiciais e transações.",
+    locale: "pt_BR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Avaliações Imobiliárias em Goiânia e Anápolis | Áddita Engenharia",
+    description:
+      "Avaliação imobiliária em Goiânia, RM de Goiânia e Anápolis conforme NBR 14.653. Laudos para inventários, divórcios, disputas judiciais e transações.",
+  },
 };
 
 export default function AvaliacaoImoveis() {

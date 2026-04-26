@@ -11,9 +11,25 @@ import ServiceObjections from "./_components/ServiceObjections";
 import ServiceCTA from "./_components/ServiceCTA";
 
 export const metadata: Metadata = {
-  title: "Vistorias Cautelares | Áddita Engenharia",
+  title: "Vistorias Cautelares em Goiânia e DF | Áddita Engenharia",
   description:
-    "Registro técnico do estado de imóveis vizinhos antes e durante obras. Documentação que previne disputas e protege construtoras e proprietários.",
+    "Vistoria cautelar de vizinhança em Goiânia e Distrito Federal. Registro técnico do estado de imóveis antes e durante obras. Protege construtoras e proprietários.",
+  alternates: { canonical: "https://addita.com.br/vistorias-cautelares" },
+  openGraph: {
+    type: "website",
+    siteName: "Áddita Engenharia",
+    url: "https://addita.com.br/vistorias-cautelares",
+    title: "Vistorias Cautelares em Goiânia e DF | Áddita Engenharia",
+    description:
+      "Vistoria cautelar de vizinhança em Goiânia e Distrito Federal. Documentação técnica que previne disputas e protege construtoras e proprietários.",
+    locale: "pt_BR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Vistorias Cautelares em Goiânia e DF | Áddita Engenharia",
+    description:
+      "Vistoria cautelar de vizinhança em Goiânia e Distrito Federal. Documentação técnica que previne disputas e protege construtoras e proprietários.",
+  },
 };
 
 export default function VistoriasCautelares() {
