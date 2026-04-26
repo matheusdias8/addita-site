@@ -21,7 +21,7 @@
 .h1 {
   color: white;
   margin-bottom: 20px;
-  font-size: clamp(2.2rem, 4.5vw, 3.2rem);
+  font-size: clamp(1.85rem, 4.5vw, 3.2rem);
 }
 
 .sub1 {
@@ -57,7 +57,8 @@
 .visual { display: none; }
 
 @media (max-width: 600px) {
-  .inner { padding: 48px 20px 56px; }
+  .inner { padding: 40px 20px 48px; }
+  .sub { font-size: 0.97rem; }
   .btns { flex-direction: column; width: 100%; }
   .btns a { text-align: center; }
 }
