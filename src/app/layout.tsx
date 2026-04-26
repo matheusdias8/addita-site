@@ -30,7 +30,6 @@ export const metadata: Metadata = {
       "Perícia judicial de engenharia em Goiânia. Perito IBAPE-GO nº 275, credenciado TJ-GO e TJDFT. Assistência técnica e análise de contratos.",
   },
   alternates: { canonical: "https://addita.com.br/" },
-  icons: { icon: "/favicon.png" },
 };
 
 const jsonLd = {
