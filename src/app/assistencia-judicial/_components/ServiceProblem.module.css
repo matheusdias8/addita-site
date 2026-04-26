@@ -1,0 +1,70 @@
+.section {
+  background: var(--white);
+  padding: 96px 0;
+}
+
+.labelDim { color: var(--dark-green); opacity: 0.6; font-size: 15px; }
+
+.h2 {
+  color: var(--dark-green);
+  margin-bottom: 20px;
+}
+
+.h2accent { color: var(--teal); }
+
+.p {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.85;
+  margin-bottom: 40px;
+  max-width: 760px;
+}
+
+.tableWrap {
+  overflow-x: auto;
+  border-radius: 12px;
+  border: 1px solid rgba(1,89,84,0.12);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead tr {
+  background: var(--deep-green);
+}
+
+.table th {
+  padding: 16px 20px;
+  text-align: left;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.75);
+  letter-spacing: 0.03em;
+}
+
+.thHighlight {
+  color: var(--teal) !important;
+}
+
+.table td {
+  padding: 16px 20px;
+  font-size: 0.93rem;
+  color: #444;
+  border-bottom: 1px solid rgba(1,89,84,0.07);
+  vertical-align: middle;
+}
+
+.table tbody tr:last-child td { border-bottom: none; }
+.table tbody tr:nth-child(even) td { background: var(--teal-light); }
+
+.tdAspect {
+  font-weight: 600;
+  color: var(--dark-green) !important;
+}
+
+.tdHighlight {
+  color: var(--dark-green) !important;
+  font-weight: 500;
+}

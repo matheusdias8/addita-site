@@ -1,0 +1,60 @@
+.section {
+  background: var(--white);
+  padding: 96px 0;
+}
+
+.labelDim { color: var(--dark-green); opacity: 0.6; font-size: 15px; }
+
+.h2 {
+  color: var(--dark-green);
+  margin-bottom: 36px;
+}
+
+.h2accent { color: var(--teal); }
+
+.p {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.85;
+  margin-bottom: 24px;
+}
+
+.pBold {
+  color: var(--dark-green);
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.painItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 20px;
+  background: #FAFAFA;
+  border: 1px solid rgba(1,89,84,0.1);
+  border-radius: 8px;
+  color: #444;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.dot {
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--teal);
+}
+
+@media (max-width: 700px) {
+  .grid { grid-template-columns: 1fr; }
+}
