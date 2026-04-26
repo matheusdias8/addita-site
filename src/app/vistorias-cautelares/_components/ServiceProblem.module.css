@@ -1,0 +1,37 @@
+.section {
+  background: var(--white);
+  padding: 96px 0;
+}
+
+.labelDim { color: var(--dark-green); opacity: 0.6; font-size: 15px; }
+
+.h2 {
+  color: var(--dark-green);
+  margin-bottom: 20px;
+}
+
+.h2accent { color: var(--teal); }
+
+.p {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.85;
+  margin-bottom: 24px;
+  max-width: 760px;
+}
+
+.callout {
+  border-left: 3px solid var(--teal);
+  background: var(--teal-light);
+  border-radius: 0 12px 12px 0;
+  padding: 24px 28px;
+  max-width: 760px;
+}
+
+.calloutText {
+  color: var(--dark-green);
+  font-size: 1rem;
+  line-height: 1.8;
+  font-weight: 500;
+  margin: 0;
+}
