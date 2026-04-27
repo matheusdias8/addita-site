@@ -13,7 +13,7 @@ import ServiceCTA from "./_components/ServiceCTA";
 export const metadata: Metadata = {
   title: "Perícia Judicial em Engenharia Civil em Goiânia | Áddita Engenharia",
   description:
-    "Perito judicial de engenharia civil em Goiânia. Atuação como perito nomeado ou assistente técnico. Credenciado no TJGO e no TJDF. Laudos em norma técnica.",
+    "Perito judicial de engenharia civil em Goiânia. Laudo pericial fundamentado em norma técnica. Atuação como perito nomeado ou assistente técnico. Credenciado no TJGO e no TJDF.",
   alternates: { canonical: "https://addita.com.br/pericia-judicial" },
   openGraph: {
     type: "website",

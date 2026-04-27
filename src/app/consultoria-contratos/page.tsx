@@ -11,7 +11,7 @@ import ServiceObjections from "./_components/ServiceObjections";
 import ServiceCTA from "./_components/ServiceCTA";
 
 export const metadata: Metadata = {
-  title: "Consultoria em Contratos de Engenharia | Áddita Engenharia",
+  title: "Consultoria em Contratos de Engenharia em Goiânia | Áddita Engenharia",
   description:
     "Consultoria em contratos de engenharia em Goiânia. Análise de BDI, formação de preços, aditivos e reequilíbrio econômico-financeiro. Mais de R$ 2 bilhões em contratos gerenciados.",
   alternates: { canonical: "https://addita.com.br/consultoria-contratos" },
@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Áddita Engenharia",
     url: "https://addita.com.br/consultoria-contratos",
-    title: "Consultoria em Contratos de Engenharia | Áddita Engenharia",
+    title: "Consultoria em Contratos de Engenharia em Goiânia | Áddita Engenharia",
     description:
       "Análise de BDI, formação de preços, aditivos e reequilíbrio econômico-financeiro. Suporte técnico em disputas contratuais.",
     locale: "pt_BR",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Consultoria em Contratos de Engenharia | Áddita Engenharia",
+    title: "Consultoria em Contratos de Engenharia em Goiânia | Áddita Engenharia",
     description:
       "Análise de BDI, formação de preços, aditivos e reequilíbrio econômico-financeiro. Suporte técnico em disputas contratuais.",
   },

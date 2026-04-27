@@ -11,24 +11,24 @@ import ServiceObjections from "./_components/ServiceObjections";
 import ServiceCTA from "./_components/ServiceCTA";
 
 export const metadata: Metadata = {
-  title: "Avaliações Imobiliárias em Goiânia e Anápolis | Áddita Engenharia",
+  title: "Avaliação de Imóveis em Goiânia e Anápolis | Áddita Engenharia",
   description:
-    "Avaliação imobiliária em Goiânia, RM de Goiânia e Anápolis conforme NBR 14.653. Laudos para inventários, divórcios, disputas judiciais e transações. Perito IBAPE-GO nº 275.",
+    "Avaliação de imóveis em Goiânia, RM de Goiânia e Anápolis. Perito avaliador e perito imobiliário IBAPE-GO nº 275, conforme NBR 14.653. Laudos para inventários, divórcios e disputas judiciais.",
   alternates: { canonical: "https://addita.com.br/avaliacao-imoveis" },
   openGraph: {
     type: "website",
     siteName: "Áddita Engenharia",
     url: "https://addita.com.br/avaliacao-imoveis",
-    title: "Avaliações Imobiliárias em Goiânia e Anápolis | Áddita Engenharia",
+    title: "Avaliação de Imóveis em Goiânia e Anápolis | Áddita Engenharia",
     description:
-      "Avaliação imobiliária em Goiânia, RM de Goiânia e Anápolis conforme NBR 14.653. Laudos para inventários, divórcios, disputas judiciais e transações.",
+      "Avaliação de imóveis em Goiânia, RM de Goiânia e Anápolis. Perito avaliador IBAPE-GO nº 275, conforme NBR 14.653. Laudos para inventários, divórcios e disputas judiciais.",
     locale: "pt_BR",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Avaliações Imobiliárias em Goiânia e Anápolis | Áddita Engenharia",
+    title: "Avaliação de Imóveis em Goiânia e Anápolis | Áddita Engenharia",
     description:
-      "Avaliação imobiliária em Goiânia, RM de Goiânia e Anápolis conforme NBR 14.653. Laudos para inventários, divórcios, disputas judiciais e transações.",
+      "Avaliação de imóveis em Goiânia, RM de Goiânia e Anápolis. Perito avaliador IBAPE-GO nº 275, conforme NBR 14.653. Laudos para inventários, divórcios e disputas judiciais.",
   },
 };
 
