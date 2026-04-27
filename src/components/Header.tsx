@@ -54,7 +54,7 @@ export default function Header({ basePath = "" }: HeaderProps) {
   return (
     <header ref={ref} className={styles.header}>
       <div className={styles.inner}>
-        <a href={`${basePath}#inicio`} className={styles.logo} onClick={(e) => { close(); handleAnchor(e, "inicio"); }}>
+        <a href={basePath || "/"} className={styles.logo} onClick={(e) => { close(); handleAnchor(e, "inicio"); }}>
           <Image
             src="/images/logo_horizontal_branco.png"
             alt="Áddita Engenharia"
@@ -66,7 +66,7 @@ export default function Header({ basePath = "" }: HeaderProps) {
         </a>
 
         <nav className={styles.nav}>
-          <a href={`${basePath}#inicio`} onClick={(e) => handleAnchor(e, "inicio")}>Início</a>
+          <a href={basePath || "/"} onClick={(e) => handleAnchor(e, "inicio")}>Início</a>
           <div className={styles.dropdown}>
             <button className={styles.dropbtn}>
               Serviços <span className={styles.arrow}>▾</span>
