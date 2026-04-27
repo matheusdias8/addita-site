@@ -37,10 +37,10 @@ export default function ServiceHero() {
     <section id="inicio" className={styles.hero}>
       <div className={styles.inner}>
         <span ref={labelRef} className="label">
-          Direito das partes · Art. 465 do CPC
+          Goiânia · Distrito Federal · TJGO · TJDF · Art. 465 do CPC
         </span>
         <h1 ref={h1Ref} className={styles.h1}>
-          Assistência Técnica Judicial em Engenharia
+          Assistência Técnica Judicial em Engenharia em Goiânia
           <span className={styles.sub1}>
             O perito do juízo trabalha para o processo. Você precisa de alguém que trabalhe exclusivamente para você.
           </span>

@@ -37,17 +37,18 @@ export default function ServiceHero() {
     <section id="inicio" className={styles.hero}>
       <div className={styles.inner}>
         <span ref={labelRef} className="label">
-          Documentação técnica · Proteção jurídica · Construtoras e vizinhos
+          Goiânia · Distrito Federal · Construtoras · Proprietários
         </span>
         <h1 ref={h1Ref} className={styles.h1}>
-          Vistorias Cautelares de Vizinhança
+          Vistorias Cautelares de Vizinhança em Goiânia
           <span className={styles.sub1}>
             Antes de a obra começar, o problema pode já estar sendo formado.
           </span>
         </h1>
         <p ref={subRef} className={styles.sub}>
-          A Áddita Engenharia realiza vistorias cautelares de vizinhança — documentando o estado
-          real dos imóveis próximos à obra antes que qualquer reclamação apareça.
+          A Áddita Engenharia realiza vistorias cautelares de vizinhança em Goiânia e Distrito
+          Federal — documentando o estado real dos imóveis próximos à obra antes que qualquer
+          reclamação apareça.
         </p>
         <div ref={btnsRef} className={styles.btns}>
           <a href={WA} target="_blank" rel="noopener noreferrer" className="btn">

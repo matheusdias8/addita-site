@@ -32,9 +32,41 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://addita.com.br/vistorias-cautelares#service",
+      name: "Vistorias Cautelares",
+      description:
+        "Vistoria cautelar de vizinhança em Goiânia e Distrito Federal. Registro técnico do estado de imóveis antes e durante obras. Protege construtoras e proprietários.",
+      url: "https://addita.com.br/vistorias-cautelares",
+      provider: { "@id": "https://addita.com.br/#business" },
+      areaServed: [
+        { "@type": "City", name: "Goiânia" },
+        { "@type": "State", name: "Goiás" },
+        { "@type": "State", name: "Distrito Federal" },
+      ],
+      serviceType: "Vistoria Cautelar de Vizinhança",
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Início", item: "https://addita.com.br" },
+        { "@type": "ListItem", position: 2, name: "Vistorias Cautelares", item: "https://addita.com.br/vistorias-cautelares" },
+      ],
+    },
+  ],
+};
+
 export default function VistoriasCautelares() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header basePath="/" />
       <ServiceHero />
       <ServiceProblem />

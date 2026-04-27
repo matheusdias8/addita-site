@@ -32,9 +32,41 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://addita.com.br/pericia-judicial#service",
+      name: "Perícia Judicial em Engenharia Civil",
+      description:
+        "Perícia judicial de engenharia civil em Goiânia. Atuação como perito nomeado pelo juízo ou assistente técnico. Credenciado no TJGO e no TJDF. Laudos fundamentados em norma técnica.",
+      url: "https://addita.com.br/pericia-judicial",
+      provider: { "@id": "https://addita.com.br/#business" },
+      areaServed: [
+        { "@type": "City", name: "Goiânia" },
+        { "@type": "State", name: "Goiás" },
+        { "@type": "State", name: "Distrito Federal" },
+      ],
+      serviceType: "Perícia Judicial de Engenharia Civil",
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Início", item: "https://addita.com.br" },
+        { "@type": "ListItem", position: 2, name: "Perícia Judicial", item: "https://addita.com.br/pericia-judicial" },
+      ],
+    },
+  ],
+};
+
 export default function PericiaJudicial() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header basePath="/" />
       <ServiceHero />
       <ServiceProblem />

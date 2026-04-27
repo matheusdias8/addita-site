@@ -37,18 +37,18 @@ export default function ServiceHero() {
     <section id="inicio" className={styles.hero}>
       <div className={styles.inner}>
         <span ref={labelRef} className="label">
-          Consultoria em Contratos de Engenharia
+          Goiânia · Distrito Federal · BDI · Reequilíbrio Econômico-Financeiro
         </span>
         <h1 ref={h1Ref} className={styles.h1}>
-          Consultoria em Contratos de Engenharia
+          Consultoria em Contratos de Engenharia em Goiânia
           <span className={styles.sub1}>
             Contratos são complexos por natureza. O problema é quando essa complexidade trabalha contra você.
           </span>
         </h1>
         <p ref={subRef} className={styles.sub}>
-          A Áddita Engenharia oferece consultoria especializada em contratos de obras — para
-          construtoras, estatais e advogados que precisam de um profissional técnico que entenda
-          o que realmente está em jogo.
+          A Áddita Engenharia oferece consultoria especializada em contratos de obras em Goiânia e
+          Distrito Federal — para construtoras, estatais e advogados que precisam de um profissional
+          técnico que entenda o que realmente está em jogo.
         </p>
         <div ref={btnsRef} className={styles.btns}>
           <a href={WA} target="_blank" rel="noopener noreferrer" className="btn">

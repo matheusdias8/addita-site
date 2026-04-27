@@ -13,7 +13,7 @@ import ServiceCTA from "./_components/ServiceCTA";
 export const metadata: Metadata = {
   title: "Consultoria em Contratos de Engenharia | Áddita Engenharia",
   description:
-    "Análise de BDI, formação de preços, aditivos e reequilíbrio econômico-financeiro. Suporte técnico em disputas contratuais. Mais de R$ 2 bilhões em contratos gerenciados.",
+    "Consultoria em contratos de engenharia em Goiânia. Análise de BDI, formação de preços, aditivos e reequilíbrio econômico-financeiro. Mais de R$ 2 bilhões em contratos gerenciados.",
   alternates: { canonical: "https://addita.com.br/consultoria-contratos" },
   openGraph: {
     type: "website",
@@ -32,9 +32,41 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://addita.com.br/consultoria-contratos#service",
+      name: "Consultoria em Contratos de Engenharia",
+      description:
+        "Consultoria em contratos de engenharia em Goiânia. Análise de BDI, formação de preços, aditivos e reequilíbrio econômico-financeiro. Suporte técnico em disputas contratuais.",
+      url: "https://addita.com.br/consultoria-contratos",
+      provider: { "@id": "https://addita.com.br/#business" },
+      areaServed: [
+        { "@type": "City", name: "Goiânia" },
+        { "@type": "State", name: "Goiás" },
+        { "@type": "State", name: "Distrito Federal" },
+      ],
+      serviceType: "Consultoria em Contratos de Engenharia",
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Início", item: "https://addita.com.br" },
+        { "@type": "ListItem", position: 2, name: "Consultoria em Contratos", item: "https://addita.com.br/consultoria-contratos" },
+      ],
+    },
+  ],
+};
+
 export default function ConsultoriaContratos() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header basePath="/" />
       <ServiceHero />
       <ServiceProblem />

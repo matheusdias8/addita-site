@@ -37,10 +37,10 @@ export default function ServiceHero() {
     <section id="inicio" className={styles.hero}>
       <div className={styles.inner}>
         <span ref={labelRef} className="label">
-          Perito do Juízo · Assistente Técnico · TJGO · TJDF
+          Goiânia · Distrito Federal · TJGO · TJDF · IBAPE-GO nº 275
         </span>
         <h1 ref={h1Ref} className={styles.h1}>
-          Perícia Judicial em Engenharia Civil
+          Perícia Judicial em Engenharia Civil em Goiânia
           <span className={styles.sub1}>
             Em processos que envolvem obras, imóveis e contratos, a decisão técnica precisa ser tão sólida quanto a jurídica.
           </span>

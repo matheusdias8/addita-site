@@ -31,9 +31,41 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://addita.com.br/assistencia-judicial#service",
+      name: "Assistência Técnica Judicial em Engenharia",
+      description:
+        "Assistência técnica em perícia judicial de engenharia em Goiânia. Revisão de laudos, quesitos e pareceres de impugnação. Perito IBAPE-GO nº 275, credenciado TJGO e TJDF.",
+      url: "https://addita.com.br/assistencia-judicial",
+      provider: { "@id": "https://addita.com.br/#business" },
+      areaServed: [
+        { "@type": "City", name: "Goiânia" },
+        { "@type": "State", name: "Goiás" },
+        { "@type": "State", name: "Distrito Federal" },
+      ],
+      serviceType: "Assistência Técnica Judicial",
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Início", item: "https://addita.com.br" },
+        { "@type": "ListItem", position: 2, name: "Assistência Judicial", item: "https://addita.com.br/assistencia-judicial" },
+      ],
+    },
+  ],
+};
+
 export default function AssistenciaJudicial() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header basePath="/" />
       <ServiceHero />
       <ServiceProblem />
