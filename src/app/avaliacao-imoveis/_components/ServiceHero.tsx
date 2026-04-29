@@ -37,7 +37,7 @@ export default function ServiceHero() {
     <section id="inicio" className={styles.hero}>
       <div className={styles.inner}>
         <span ref={labelRef} className="label">
-          Goiânia · Região Metropolitana · Anápolis · NBR 14.653 · IBAPE-GO nº 275
+          Perito avaliador de imóveis · Goiânia · Região Metropolitana · Anápolis · NBR 14.653 · IBAPE-GO nº 275
         </span>
         <h1 ref={h1Ref} className={styles.h1}>
           Avaliações Imobiliárias em Goiânia e Anápolis
@@ -46,9 +46,9 @@ export default function ServiceHero() {
           </span>
         </h1>
         <p ref={subRef} className={styles.sub}>
-          A Áddita Engenharia realiza avaliações imobiliárias em Goiânia, região metropolitana e
-          Anápolis com metodologia NBR 14.653, válidas para uso judicial e administrativo — com
-          mais de uma centena de laudos emitidos para os principais bancos do país.
+          A Áddita Engenharia atua como perito avaliador de imóveis em Goiânia, região
+          metropolitana e Anápolis com metodologia NBR 14.653, válida para uso judicial e
+          administrativo — com mais de uma centena de laudos emitidos para os principais bancos do país.
         </p>
         <div ref={btnsRef} className={styles.btns}>
           <a href={WA} target="_blank" rel="noopener noreferrer" className="btn">

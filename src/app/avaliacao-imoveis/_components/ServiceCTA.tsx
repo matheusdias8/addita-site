@@ -18,7 +18,7 @@ export default function ServiceCTA() {
           Conversar no WhatsApp →
         </a>
         <p className={styles.cred}>
-          Eng. Matheus Dias Lima &nbsp;·&nbsp; CREA-GO &nbsp;·&nbsp; IBAPE-GO nº 275
+          Eng. Matheus Dias Lima &nbsp;·&nbsp; Avaliador de imóveis credenciado &nbsp;·&nbsp; CREA-GO &nbsp;·&nbsp; IBAPE-GO nº 275
           <br />
           Credenciado: Banco do Brasil &nbsp;·&nbsp; Caixa Econômica Federal &nbsp;·&nbsp; TJGO &nbsp;·&nbsp; TJDF
         </p>
